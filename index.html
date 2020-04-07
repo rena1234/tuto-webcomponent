@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible"/>
+    <title>Dataviz</title>
+    <style>
+      h2{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+  <h2>Text outside of component</h2>
+  <custom-text doubletext="true">
+		<div slot="firsttext">HELLO</div>
+		<div slot="secondtext">WORLD</div>
+	</custom-text>
+  <custom-text doubletext="false">
+		<div slot="firsttext">HI</div>
+	</custom-text>
+	<script src="/dist/component.js"></script>
+  </body>
+</html>
+
